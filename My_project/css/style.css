@@ -1,0 +1,101 @@
+body{
+	width: 100%;
+
+}
+
+.hero img{
+	width:100%;
+	margin: auto;
+}
+
+
+
+.info{
+	text-align: center ;
+	background: fff;
+	padding: 2rem;
+
+}
+
+.owner-details img{
+	border-radius: 50%;
+}
+
+
+.owner-details .relationship 
+{
+	color: silver;
+}
+
+.owner-details .name{
+	color: silver;
+	font-weight: bold;
+}
+
+
+.behaviour .icons{
+	float: left;
+	width: 33.3%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.booking{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.button {
+  background: orangered;
+  padding: 7px;
+  border-radius: 2px;
+  width: 100%;
+	
+}
+
+.button a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.booking p{
+	font-size: 30px;
+	text-align: center;
+	padding: 7px;
+}
+
+.about{
+	width: 100%;
+	text-align: center;
+
+}
+footer{
+		background: #d8e3e1;
+}
+h4{
+	color: orangered;
+}
+
+span , time {
+			font-weight: bold;
+
+}
+
+hr{
+	color: black;
+	text-width: 1px;
+}
+
+
+.photos img {
+	display: block;
+	margin:0 auto;
+}
+
+
