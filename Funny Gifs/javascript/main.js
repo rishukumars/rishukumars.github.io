@@ -7,26 +7,7 @@ var query = document.querySelector(".js-userinput").value;
 pushToDisplay(query);
 
 });
-// document.querySelector(".js-userinput").addEventListener('keyup',function (e) {
 
-
-// // If the key ENTER is pressed
-// if(e.key === 'Enter'){
-
-//     // var x = document.querySelector("input").value;
-
-
-// }
-
-    
-
-// });
-
-
-// //2.Manipulate the input data with Api
-
-// var getvalue = getValue();
-// console.log(getvalue);
 function pushToDisplay(query){
     var url = "https://api.giphy.com/v1/gifs/search?q=" + query + "&api_key=lcZMsaCdOU3EQX3aRQzOKeTJNbXdiAxq";
 
